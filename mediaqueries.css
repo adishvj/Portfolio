@@ -107,5 +107,9 @@ g@media screen and (max-width: 1400px) {
     width: 360px;
     align-items: center;
   }
+  .section__text__p2
+  {
+    margin-left: 60px;
+  }
   
 }
