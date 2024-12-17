@@ -20,7 +20,7 @@ body {
   overflow: hidden;
   border-right: 2px solid #333;
   width: 0; /* Start with no width */
-  animation: typing 10s steps(26) infinite, blink 1s step-end infinite; /* Increased durations */
+  animation: typing 9s steps(29) infinite, blink 1s step-end infinite; /* Increased durations */
 }
 
 @keyframes typing {
@@ -28,7 +28,7 @@ body {
     width: 0;
   }
   50% {
-    width: 22ch; /* Adjust this based on the length of your text */
+    width: 23ch; /* Adjust this based on the length of your text */
   }
   100% {
     width: 0; /* Reset to no width for infinite loop */
@@ -420,6 +420,7 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
+
 
 #projects {
   position: relative;

@@ -1,4 +1,4 @@
-g@media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -106,10 +106,26 @@ g@media screen and (max-width: 1400px) {
     height: 330px;
     width: 360px;
     align-items: center;
+    margin-left: 20px;
   }
   .section__text__p2
   {
     margin-left: 60px;
+  }
+  .article-container
+  {
+margin-left: 60px;
+
+  }
+  .article-containers
+  {
+    padding-left: 21px;
+    
+  }
+  .about-containers
+  {
+    margin-left: 45px;
+
   }
   
 }
